@@ -1,49 +1,55 @@
 {
-  "name": "Midnight Revenge",
-  "description": "High contrast, OLED friendly, neon accents.",
+  "name": "Cinematic Glass [Arko Edition]",
+  "description": "True transparency, glassmorphism, and cinematic depth.",
   "authors": [
     {
-      "name": "Arko",
-      "id": "YOUR_DISCORD_USER_ID"
+      "name": "Aurus",
+      "id": "YOUR_ID"
     }
   ],
   "spec": 2,
   "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#000000"],
-    "BACKGROUND_SECONDARY": ["#0a0a0a"],
-    "BACKGROUND_SECONDARY_ALT": ["#050505"],
-    "BACKGROUND_TERTIARY": ["#000000"],
-    "BACKGROUND_ACCENT": ["#1a1a1a"],
-    "BACKGROUND_FLOATING": ["#000000"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#0a0a0a"],
-    
-    "TEXT_NORMAL": ["#e0e0e0"],
-    "TEXT_MUTED": ["#858585"],
-    "TEXT_LINK": ["#7df9ff"],
-    
-    "HEADER_PRIMARY": ["#ffffff"],
-    "HEADER_SECONDARY": ["#b0b0b0"],
-    
-    "INTERACTIVE_NORMAL": ["#b0b0b0"],
-    "INTERACTIVE_HOVER": ["#e0e0e0"],
+    "HEADER_PRIMARY": ["#FFFFFF"],
+    "HEADER_SECONDARY": ["#d1d5db"],
+    "TEXT_NORMAL": ["#f3f4f6"],
+    "TEXT_MUTED": ["#9ca3af"],
+    "TEXT_LINK": ["#38bdf8"],
+    "INTERACTIVE_NORMAL": ["#d1d5db"],
+    "INTERACTIVE_HOVER": ["#ffffff"],
     "INTERACTIVE_ACTIVE": ["#ffffff"],
-    "INTERACTIVE_MUTED": ["#4f4f4f"],
     
-    "BRAND_EXPERIMENT": ["#5865F2"],
-    "BRAND_EXPERIMENT_500": ["#5865F2"],
-    "BRAND_EXPERIMENT_560": ["#4752C4"],
-    "BRAND_EXPERIMENT_600": ["#4752C4"]
+    "BACKGROUND_PRIMARY": ["#00000000"],
+    "BACKGROUND_SECONDARY": ["#00000040"], 
+    "BACKGROUND_SECONDARY_ALT": ["#00000060"],
+    "BACKGROUND_TERTIARY": ["#00000000"],
+    "BACKGROUND_ACCENT": ["#1f1f1fAA"],
+    "BACKGROUND_FLOATING": ["#09090bF0"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#00000000"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#00000040"],
+    
+    "CHAT_BACKGROUND": ["#00000000"],
+    "INPUT_BACKGROUND": ["#00000080"],
+    
+    "CARD_PRIMARY_BG": ["#00000060"],
+    "CARD_PRIMARY_ACTIVE_BG": ["#00000080"],
+    "CARD_SECONDARY_BG": ["#00000040"],
+    "CARD_SECONDARY_ACTIVE_BG": ["#00000060"],
+    
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#6b7280"],
+    "CHANNEL_TEXT_AREA_BACKGROUND": ["#00000080"],
+    
+    "BRAND_EXPERIMENT": ["#3b82f6"],
+    "BRAND_EXPERIMENT_500": ["#3b82f6"],
+    "CONTROL_BRAND_FOREGROUND": ["#3b82f6"]
   },
   "rawColors": {
-    "PRIMARY_DARK_500": "#000000",
-    "PRIMARY_DARK_600": "#0a0a0a",
-    "PRIMARY_DARK_700": "#1a1a1a",
-    "BRAND_500": "#5865F2",
-    "ACCENT_COLOR": "#7df9ff"
+    "PRIMARY_DARK_600": "#00000060",
+    "PRIMARY_DARK_800": "#00000090",
+    "BRAND_500": "#3b82f6"
   },
   "background": {
-    "url": "",
-    "alpha": 1
+    "url": "INSERT_YOUR_IMAGE_LINK_HERE",
+    "alpha": 0.8,
+    "blur": 2
   }
 }
