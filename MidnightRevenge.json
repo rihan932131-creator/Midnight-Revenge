@@ -1,0 +1,49 @@
+{
+  "name": "Midnight Revenge",
+  "description": "High contrast, OLED friendly, neon accents.",
+  "authors": [
+    {
+      "name": "Arko",
+      "id": "YOUR_DISCORD_USER_ID"
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#000000"],
+    "BACKGROUND_SECONDARY": ["#0a0a0a"],
+    "BACKGROUND_SECONDARY_ALT": ["#050505"],
+    "BACKGROUND_TERTIARY": ["#000000"],
+    "BACKGROUND_ACCENT": ["#1a1a1a"],
+    "BACKGROUND_FLOATING": ["#000000"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#0a0a0a"],
+    
+    "TEXT_NORMAL": ["#e0e0e0"],
+    "TEXT_MUTED": ["#858585"],
+    "TEXT_LINK": ["#7df9ff"],
+    
+    "HEADER_PRIMARY": ["#ffffff"],
+    "HEADER_SECONDARY": ["#b0b0b0"],
+    
+    "INTERACTIVE_NORMAL": ["#b0b0b0"],
+    "INTERACTIVE_HOVER": ["#e0e0e0"],
+    "INTERACTIVE_ACTIVE": ["#ffffff"],
+    "INTERACTIVE_MUTED": ["#4f4f4f"],
+    
+    "BRAND_EXPERIMENT": ["#5865F2"],
+    "BRAND_EXPERIMENT_500": ["#5865F2"],
+    "BRAND_EXPERIMENT_560": ["#4752C4"],
+    "BRAND_EXPERIMENT_600": ["#4752C4"]
+  },
+  "rawColors": {
+    "PRIMARY_DARK_500": "#000000",
+    "PRIMARY_DARK_600": "#0a0a0a",
+    "PRIMARY_DARK_700": "#1a1a1a",
+    "BRAND_500": "#5865F2",
+    "ACCENT_COLOR": "#7df9ff"
+  },
+  "background": {
+    "url": "",
+    "alpha": 1
+  }
+}
